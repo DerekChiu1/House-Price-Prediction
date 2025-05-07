@@ -42,12 +42,11 @@ The R² score of the prediction result is 0.652, indicating that 65.2% of the ho
 Figure 1 is a line plot showing the fluctuation in the predicted house price and actual result. The x-axis is the index for individual houses and the y-axis is the house price. The blue line is the predicted house price while the yellow line is the actual price. Throughout each of the 146 houses in the testing subset, the blue and yellow lines constantly overlap and stay very close to each other. This indicates an accurate model performance as the predicted house price closely follows the up-and-down trend of the actual price. Figure 2 is a histogram showing the distribution of the actual house price and predicted price. The x-axis is the house price and the y-axis is the density, while the yellow density curve represents the predicted house price and the blue bars represent the actual price. The yellow curve follows the same trend of the blue bars as they both peak at the price around 150,000 - 200,000, and remain low for prices below 80,000 or above 300,000. It shows that the density distribution of the prediction and actual house price are highly identical, indicating a good model performance and accurate prediction. Overall, these two figures show that the predicted house price follows closely with the trend of the actual price for the 146 individual houses in the testing dataset with small/acceptable errors, while the prediction and actual house price also share a highly similar distribution pattern that follows a bell curve but slightly right skewed.
 
 ## Analysis You Can Do Using the Prediction Results
-- Looking at the line plot, does it reveals possibility of overfitting of the dataset or not?
-- Looking at the?
-- Given a specific cancer, are male or female patients more likely to get the disease over the other?
-- Given a specific cancer, which age group is the most or least likely to get the disease?
-- Given a same disease, is there a difference in the therapy used between male and female patients? Is it the same between younger and older patients?
+- Looking at the line plot, does it reveals possibility of overfitting or underfitting of the dataset?
+- Looking at the histogram, how similar and close is the distribution of predicted house price compared to that of the actual house price?
+- Based on the comparison between the prediction and the actual house price, how strong is the linear relationship between the house features and house price?
+- Considering the testin dataset only has 146 sample of houses, if we test/predict the ridge regression model on the entire dataset, how would the prediction result turn out?
 
 ## Contributors
 1. Kuan-Chun Chiu (Myself) - beagledirk1@gmail.com
-2. Atharva Nilapwar - adhikari.ay@northeastern.edu
+2. Ayush Adhikari - adhikari.ay@northeastern.edu
